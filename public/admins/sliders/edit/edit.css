@@ -1,0 +1,5 @@
+.image-200x200 {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+}

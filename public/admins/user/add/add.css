@@ -1,0 +1,10 @@
+.select2-search__field {
+    border: none !important;
+}
+.select2-selection__choice {
+    background-color: darkgreen !important;
+}
+.alert-danger {
+    padding: 3px 5px !important;
+    margin: 5px 0 !important;
+}

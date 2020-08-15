@@ -1,0 +1,11 @@
+.select2-selection__choice {
+    background-color: darkgreen !important;
+}
+.select2-selection {
+    height: 37px !important;
+}
+.feature-image-200x200 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
