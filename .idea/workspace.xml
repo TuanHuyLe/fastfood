@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="744fbb1c-e2b1-4c0b-8ac2-2d474421674b" name="Default Changelist" comment="" />
+    <list default="true" id="744fbb1c-e2b1-4c0b-8ac2-2d474421674b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminRoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminRoleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/role/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/role/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +19,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -130,6 +142,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/role" />
@@ -185,7 +198,10 @@
       <workItem from="1597372645873" duration="5411000" />
       <workItem from="1597389313966" duration="1245000" />
       <workItem from="1597402210287" duration="5763000" />
-      <workItem from="1597455109910" duration="4714000" />
+      <workItem from="1597455109910" duration="13791000" />
+      <workItem from="1597568467246" duration="4551000" />
+      <workItem from="1597582594305" duration="5207000" />
+      <workItem from="1597624512413" duration="1827000" />
     </task>
     <servers />
   </component>
@@ -201,25 +217,29 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="558" y="197" key="#Language_Injections/0.0.1366.768@0.0.1366.768" timestamp="1596443984035" />
+    <state x="137" y="39" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597569183277">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1597569183277" />
     <state x="296" y="105" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596192006739">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="296" y="105" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1596192006739" />
-    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596618035584">
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597624899637">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1596618035584" />
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1597624899637" />
     <state x="43" y="56" key="SettingsEditor" timestamp="1596162610703">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="43" y="56" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596162610703" />
-    <state x="339" y="172" key="run.anything.popup" timestamp="1596165263545">
+    <state x="339" y="172" key="run.anything.popup" timestamp="1597569201873">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1596165263545" />
-    <state x="339" y="36" width="672" height="678" key="search.everywhere.popup" timestamp="1597376001116">
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1597569201873" />
+    <state x="339" y="36" width="672" height="678" key="search.everywhere.popup" timestamp="1597479101215">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="339" y="36" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1597376001116" />
+    <state x="339" y="36" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1597479101215" />
   </component>
 </project>

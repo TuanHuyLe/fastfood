@@ -44,4 +44,18 @@ class User extends Authenticatable
             ->belongsToMany(Role::class, 'role_user', 'user_id', 'role_id')
             ->withTimestamps();
     }
+
+    public function checkPermissionAccess($permissonCheck)
+    {
+
+        $roles = auth()->user()->roles;
+        foreach ($roles as $role)
+        {
+            $permissions = $role->permissions;
+            if ($permissions->contains('key_code', $permissonCheck)){
+                return true;
+            }
+        }
+        return false;
+    }
 }

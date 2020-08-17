@@ -20,7 +20,7 @@ class AdminRoleController extends Controller
 
     public function index()
     {
-        $roles = $this->role->latest()->paginate(5);
+        $roles = $this->role->paginate(5);
         return view('admin.role.index', compact('roles'));
     }
 
@@ -72,6 +72,22 @@ class AdminRoleController extends Controller
             DB::rollBack();
             return redirect()->route('roles.edit');
         }
-
     }
+
+    public function delete($id)
+    {
+        try {
+            $this->role->find($id)->delete();
+            return response()->json([
+                'code' => 200,
+                'message' => 'success'
+            ], 200);
+        } catch (\Exception $exception) {
+            return response()->json([
+                'code' => 500,
+                'message' => 'fail'
+            ], 500);
+        }
+    }
+
 }

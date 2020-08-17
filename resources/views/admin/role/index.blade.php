@@ -1,6 +1,10 @@
 @extends("layouts.admin")
 @section("title", "Roles")
 
+@section('js')
+    <script src="{{ asset('vendor/sweetalert2@9/sweetalert2@9.js') }}"></script>
+    <script src="{{ asset('admins/roles/index/index.js') }}"></script>
+@endsection
 @section("content")
     <div class="content-wrapper">
         @include('partials.contentheader', ['name'=>'Roles', 'key'=> 'List'])
@@ -29,8 +33,8 @@
                                     <td>
                                         <a href="{{ route('roles.edit', ['id'=>$value->id]) }}"
                                            class="btn btn-warning">Edit</a>
-                                        <a data-url=""
-                                           class="btn btn-danger btnDelete">Delete</a>
+                                        <a data-url="{{ route('roles.delete', ['id'=>$value->id]) }}"
+                                           class="btn-danger btn action_delete">Delete</a>
                                     </td>
                                 </tr>
                             @endforeach
